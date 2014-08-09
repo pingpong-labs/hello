@@ -1,6 +1,6 @@
 <?php namespace Admin;
 
-class PostsControllerTest extends \TestCase {
+class PostsControllerTest extends \AdminTestCase {
 	
 	public function testGetIndex()
 	{

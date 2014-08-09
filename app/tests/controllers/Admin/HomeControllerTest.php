@@ -1,14 +1,7 @@
 <?php namespace Admin;
 
-class HomeControllerTest extends \TestCase {
+class HomeControllerTest extends \AdminTestCase {
 	
-	public function setUp()
-	{
-		parent::setUp();
-
-		$this->app['auth']->loginUsingId(1);
-	}
-
 	public function testGetIndex()
 	{
 		$this->call('GET', "/{$this->prefix}");
