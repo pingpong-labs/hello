@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "pingpong/hello",
+	"description": "Hello!",
+	"keywords": ["framework", "laravel", "pingpong", "hello", "cms"],
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
