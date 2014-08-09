@@ -7,6 +7,9 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase {
 		parent::setUp();
 
 		$this->prefix = $this->app['config']->get('hello.prefix');
+
+		$this->app['artisan']->call('migrate', ['--force']);
+		$this->app['artisan']->call('db:seed', ['--force']);
 	}
 	
 	/**

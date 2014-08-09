@@ -34,7 +34,7 @@ return array(
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
-			'database' => 'flex-cms',
+			'database' => 'hello',
 			'username' => 'root',
 			'password' => 'root',
 			'charset'  => 'utf8',
