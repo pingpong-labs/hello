@@ -2,6 +2,13 @@
 
 class TestCase extends Illuminate\Foundation\Testing\TestCase {
 
+	public function setUp()
+	{
+		parent::setUp();
+
+		$this->prefix = $this->app['config']->get('hello.prefix');
+	}
+	
 	/**
 	 * Creates the application.
 	 *
