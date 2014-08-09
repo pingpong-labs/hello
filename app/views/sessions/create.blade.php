@@ -3,7 +3,7 @@
 @section('content')
 
 	<a class="navbar-brand block" href="index.html">
-		Platform v0.0.0
+		Hello!
 	</a>
       <section class="m-b-lg">
         <header class="wrapper text-center">
