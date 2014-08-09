@@ -23,4 +23,9 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase {
 		return require __DIR__.'/../../bootstrap/start.php';
 	}
 
+	public function callAdmin($method, $uri, $parameters = [], $files = [], $server = [], $content = null, $changeHistory = true)
+	{
+		$this->call($method, "{$this->prefix}/{$uri}", $parameters, $files, $server, $content, $changeHistory);
+	}
+
 }
