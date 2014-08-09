@@ -10,7 +10,7 @@
 
 Coming Soon
 
-### Contributing To Hello
+### Contributing To Hello!
 
 **All issues and pull requests should be filed on the [pingpong-labs/hello](http://github.com/pingpong-labs/hello) repository.**
 
