@@ -12,8 +12,6 @@ class SessionsController extends \BaseController {
 		return View::make('sessions.create');
 	}
 
-
-
 	/**
 	 * Store a newly created resource in storage.
 	 *
@@ -23,18 +21,21 @@ class SessionsController extends \BaseController {
 	{
 		if(Auth::attempt(Input::only('username', 'password'), Input::has('remember')))
 		{
-			return Redirect::intended(Config::get('flex.prefix'));
+			return Redirect::intended(Config::get('hello.prefix', 'admin'));
 		}
 		return Redirect::back();
 	}
 
-
+	/**
+	 * Logout the current user.
+	 * 
+	 * @return Response 
+	 */
 	public function destroy()
 	{
 		Auth::logout();
 
 		return Redirect::home();
 	}
-
 
 }

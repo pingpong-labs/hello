@@ -10,7 +10,6 @@ Route::resource('users', 'UsersController');
 Route::resource('posts', 'PostssController');
 Route::resource('sessions', 'SessionsController', ['only' => ['create', 'store']]);
 
-
 Route::group(['prefix' => $prefix, 'before' => 'auth', 'namespace' => 'Admin'], function () use ($prefix)
 {
 	Route::get('/', ['as' => "{$prefix}.home", 'uses' => 'HomeController@index']);
