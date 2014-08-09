@@ -1,6 +1,8 @@
-<?php
+<?php namespace Admin;
 
-class UsersController extends \BaseController {
+use User;
+
+class UsersController extends BaseController {
 
 	/**
 	 * Display a listing of users

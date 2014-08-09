@@ -1,6 +1,9 @@
-<?php
+<?php namespace Admin;
 
-class PostsController extends \BaseController {
+use Post;
+use View;
+
+class PostsController extends BaseController {
 
 	/**
 	 * Display a listing of posts
@@ -11,7 +14,7 @@ class PostsController extends \BaseController {
 	{
 		$posts = Post::all();
 
-		return View::make('posts.index', compact('posts'));
+		return $this->view('posts.index', compact('posts'));
 	}
 
 	/**
