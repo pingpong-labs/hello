@@ -1,25 +1,19 @@
-## Laravel PHP Framework
+## Hello!
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
-
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
-
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+[![Build Status](https://travis-ci.org/pingpong-labs/hello.svg?branch=master)](https://travis-ci.org/pingpong-labs/hello)
+[![Total Downloads](https://poser.pugx.org/pingpong-labs/hello/downloads.svg)](https://packagist.org/packages/pingpong-labs/hello)
+[![Latest Stable Version](https://poser.pugx.org/pingpong-labs/hello/v/stable.svg)](https://packagist.org/packages/pingpong-labs/hello)
+[![Latest Unstable Version](https://poser.pugx.org/pingpong-labs/hello/v/unstable.svg)](https://packagist.org/packages/pingpong-labs/hello)
+[![License](https://poser.pugx.org/pingpong-labs/hello/license.svg)](https://packagist.org/packages/pingpong-labs/hello)
 
 ## Official Documentation
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+Coming Soon
 
-### Contributing To Laravel
+### Contributing To Hello
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+**All issues and pull requests should be filed on the [pingpong-labs/hello](http://github.com/pingpong-labs/hello) repository.**
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Hello! is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
