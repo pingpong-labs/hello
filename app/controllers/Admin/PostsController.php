@@ -1,7 +1,11 @@
 <?php namespace Admin;
 
 use Post;
-use View;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Redirect;
 
 class PostsController extends BaseController {
 
@@ -24,7 +28,7 @@ class PostsController extends BaseController {
 	 */
 	public function create()
 	{
-		return View::make('posts.create');
+		return $this->view('posts.create');
 	}
 
 	/**
@@ -34,16 +38,25 @@ class PostsController extends BaseController {
 	 */
 	public function store()
 	{
-		$validator = Validator::make($data = Input::all(), Post::$rules);
+		$validator = Validator::make($data = Input::except('image'), Post::$rules);
 
 		if ($validator->fails())
 		{
 			return Redirect::back()->withErrors($validator)->withInput();
 		}
 
-		Post::create($data);
+		if(Input::hasFile('image'))
+		{
+			$filename = time().'-'.$data['slug'].'.png';
+			
+			Input::file('image')->move('images/posts', $filename);
+			
+			$data['image'] = $filename;
+		}
+		
+		Auth::user()->posts()->create($data);
 
-		return Redirect::route('posts.index');
+		return $this->redirect('posts.index');
 	}
 
 	/**

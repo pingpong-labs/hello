@@ -40,7 +40,7 @@ class BaseController extends \Controller {
 	 */
 	public function redirect($route, $parameters = array(), $status = 302, $headers = array())
 	{
-		return Redirect::route("{$this->prefix()}.{route}", $parameters, $status, $headers);
+		return Redirect::route("{$this->prefix()}.{$route}", $parameters, $status, $headers);
 	}
 
 }
