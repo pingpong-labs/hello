@@ -24,7 +24,10 @@
       <section class="hbox stretch">
         @include('admin.partials.aside')
         <section id="content">
-          <section class="vbox">          
+          <section class="vbox">    
+            <header class="header bg-white b-b b-light">
+              <p>@yield('header')</p>
+            </header>      
             <section class="scrollable wrapper">
               @yield('content')
             </section>

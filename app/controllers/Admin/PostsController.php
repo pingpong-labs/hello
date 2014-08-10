@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\Redirect;
 
 class PostsController extends BaseController {
 
+	public function __construct()
+	{
+		View::share('no', 1);
+	}
+	
 	/**
 	 * Display a listing of posts
 	 *
@@ -16,7 +21,7 @@ class PostsController extends BaseController {
 	 */
 	public function index()
 	{
-		$posts = Post::all();
+		$posts = Post::with('user')->paginate(10);
 
 		return $this->view('posts.index', compact('posts'));
 	}

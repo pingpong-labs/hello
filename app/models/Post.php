@@ -18,4 +18,8 @@ class Post extends \Eloquent {
 		'image'
 	];
 
+	public function user()
+	{
+		return $this->belongsTo('User');
+	}
 }
