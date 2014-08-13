@@ -24,11 +24,10 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('homestead', 'Gravitanos-MacBook.local'),
-
-));
+$env = $app->detectEnvironment(function ()
+{
+	return getenv('APP_ENV') ?: 'local';
+});
 
 /*
 |--------------------------------------------------------------------------
