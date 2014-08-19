@@ -2,7 +2,7 @@
 <html lang="en" class="app">
 <head>  
   <meta charset="utf-8" />
-  <title>@yield('title', 'Hello!')</title>
+  <title>@yield('title', 'Administrator')</title>
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
   <link rel="stylesheet" href="{{ a('css/bootstrap.css') }}" type="text/css" />
