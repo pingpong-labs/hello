@@ -63,7 +63,9 @@
                           <i class="i i-circle-sm-o text"></i>
                           <i class="i i-circle-sm text-active"></i>
                         </span>
-                        <b class="badge bg-danger pull-right">4</b>
+                        <b class="badge bg-danger pull-right">
+                            {{ Post::count() }}
+                        </b>
                         <i class="i i-stack icon">
                         </i>
                         <span class="font-bold">Posts</span>
@@ -90,14 +92,16 @@
                             <span>Categories</span>
                           </a>
                         </li>
+                        </ul>
                     </li>
+
                     <li >
                       <a href="#" class="auto">
                         <span class="pull-right text-muted">
                           <i class="i i-circle-sm-o text"></i>
                           <i class="i i-circle-sm text-active"></i>
                         </span>
-                        <i class="i i-lab icon">
+                        <i class="i i-docs icon">
                         </i>
                         <span class="font-bold">Pages</span>
                       </a>
