@@ -17,3 +17,18 @@ if ( ! function_exists('r'))
 		return route("{$prefix}.{$route}", $parameters);
 	}
 }
+
+if ( ! function_exists('option'))
+{
+    function option($key, $default = null)
+    {
+        try
+        {
+            return Option::findByKey($key, $default);
+        }
+        catch(Exception $e)
+        {
+            return $default;
+        }
+    }
+}

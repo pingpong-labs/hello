@@ -66,38 +66,30 @@
                         <b class="badge bg-danger pull-right">4</b>
                         <i class="i i-stack icon">
                         </i>
-                        <span class="font-bold">Layouts</span>
+                        <span class="font-bold">Posts</span>
                       </a>
                       <ul class="nav dk">
                         <li >
                           <a href="layout-color.html" class="auto">                                                        
                             <i class="i i-dot"></i>
 
-                            <span>Color option</span>
+                            <span>All Posts</span>
                           </a>
                         </li>
                         <li >
                           <a href="layout-hbox.html" class="auto">                                                        
                             <i class="i i-dot"></i>
 
-                            <span>Hbox layout</span>
+                            <span>Add New</span>
                           </a>
                         </li>
                         <li >
                           <a href="layout-boxed.html" class="auto">                                                        
                             <i class="i i-dot"></i>
 
-                            <span>Boxed layout</span>
+                            <span>Categories</span>
                           </a>
                         </li>
-                        <li >
-                          <a href="layout-fluid.html" class="auto">                                                        
-                            <i class="i i-dot"></i>
-
-                            <span>Fluid layout</span>
-                          </a>
-                        </li>
-                      </ul>
                     </li>
                     <li >
                       <a href="#" class="auto">
@@ -107,14 +99,14 @@
                         </span>
                         <i class="i i-lab icon">
                         </i>
-                        <span class="font-bold">UI kit</span>
+                        <span class="font-bold">Pages</span>
                       </a>
                       <ul class="nav dk">
                         <li >
                           <a href="buttons.html" class="auto">                                                        
                             <i class="i i-dot"></i>
 
-                            <span>Buttons</span>
+                            <span>All Pages</span>
                           </a>
                         </li>
                         <li >
@@ -122,109 +114,7 @@
                             <b class="badge bg-info pull-right">369</b>                                                        
                             <i class="i i-dot"></i>
 
-                            <span>Icons</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="grid.html" class="auto">                                                        
-                            <i class="i i-dot"></i>
-
-                            <span>Grid</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="widgets.html" class="auto">                            
-                            <b class="badge bg-dark pull-right">8</b>                                                        
-                            <i class="i i-dot"></i>
-
-                            <span>Widgets</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="components.html" class="auto">                                                        
-                            <i class="i i-dot"></i>
-
-                            <span>Components</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="list.html" class="auto">                                                        
-                            <i class="i i-dot"></i>
-
-                            <span>List group</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="#table" class="auto">                            
-                            <span class="pull-right text-muted">
-                              <i class="i i-circle-sm-o text"></i>
-                              <i class="i i-circle-sm text-active"></i>
-                            </span>                            
-                            <i class="i i-dot"></i>
-
-                            <span>Table</span>
-                          </a>
-                          <ul class="nav dker">
-                            <li >
-                              <a href="table-static.html">                                <i class="i i-dot"></i>
-                                <span>Table static</span>
-                              </a>
-                            </li>
-                            <li >
-                              <a href="table-datatable.html">                            
-                                <b class="label bg-dark pull-right">1.10</b>                                <i class="i i-dot"></i>
-                                <span>Datatable</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li >
-                          <a href="#form" class="auto">                            
-                            <span class="pull-right text-muted">
-                              <i class="i i-circle-sm-o text"></i>
-                              <i class="i i-circle-sm text-active"></i>
-                            </span>                            
-                            <i class="i i-dot"></i>
-
-                            <span>Form</span>
-                          </a>
-                          <ul class="nav dker">
-                            <li >
-                              <a href="form-elements.html">                                <i class="i i-dot"></i>
-                                <span>Form elements</span>
-                              </a>
-                            </li>
-                            <li >
-                              <a href="form-validation.html">                                <i class="i i-dot"></i>
-                                <span>Form validation</span>
-                              </a>
-                            </li>
-                            <li >
-                              <a href="form-wizard.html">                                <i class="i i-dot"></i>
-                                <span>Form wizard</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li >
-                          <a href="chart.html" class="auto">                                                        
-                            <i class="i i-dot"></i>
-
-                            <span>Chart</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="portlet.html" class="auto">                                                        
-                            <i class="i i-dot"></i>
-
-                            <span>Portlet</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="timeline.html" class="auto">                                                        
-                            <i class="i i-dot"></i>
-
-                            <span>Timeline</span>
+                            <span>Add New</span>
                           </a>
                         </li>
                       </ul>
