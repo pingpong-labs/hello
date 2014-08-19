@@ -27,7 +27,7 @@
   <footer id="footer">
     <div class="text-center padder">
       <p>
-        <small><br>&copy; 2013</small>
+      <small><br>&copy; {{ date('Y') }}</small>
       </p>
     </div>
   </footer>
