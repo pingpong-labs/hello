@@ -2,8 +2,8 @@
 
 @section('content')
 
-	<a class="navbar-brand block" href="index.html">
-		Hello!
+    <a class="navbar-brand block" href="{{ route('home') }}">
+	    {{ option('site.name', 'Hello!') }}	
 	</a>
       <section class="m-b-lg">
         <header class="wrapper text-center">
