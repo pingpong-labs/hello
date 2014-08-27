@@ -8,3 +8,5 @@ composer.lock
 Thumbs.db
 public/assets/html
 public/images/posts
+/.idea
+_ide_helper.php
