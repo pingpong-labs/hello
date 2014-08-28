@@ -1,5 +1,6 @@
 <?php namespace Admin;
 
+use Illuminate\Support\Facades\Validator;
 use User;
 
 class UsersController extends BaseController {
@@ -13,7 +14,7 @@ class UsersController extends BaseController {
 	{
 		$users = User::all();
 
-		return View::make('users.index', compact('users'));
+		return $this->view('users.index', compact('users'));
 	}
 
 	/**
@@ -23,7 +24,7 @@ class UsersController extends BaseController {
 	 */
 	public function create()
 	{
-		return View::make('users.create');
+		return $this->view('users.create');
 	}
 
 	/**
@@ -68,7 +69,7 @@ class UsersController extends BaseController {
 	{
 		$user = User::find($id);
 
-		return View::make('users.edit', compact('user'));
+		return $this->view('users.edit', compact('user'));
 	}
 
 	/**
