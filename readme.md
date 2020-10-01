@@ -10,10 +10,10 @@
 
 Coming Soon
 
-### Contributing To Hello!
+### Contribution To Hello!
 
-**All issues and pull requests should be filed on the [pingpong-labs/hello](http://github.com/pingpong-labs/hello) repository.**
+***All issues and pull requests should be filed on the [pingpong-labs/hello](http://github.com/pingpong-labs/hello) repository.***
 
 ### License
 
-The Hello! is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The "Hello!" is an open-source software licensed under the [MIT license](http://opensource.org/licenses/MIT).
